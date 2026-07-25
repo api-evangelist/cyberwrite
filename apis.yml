@@ -1,8 +1,31 @@
 aid: cyberwrite
 name: Cyberwrite
-description: Cyberwrite is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Cyberwrite is an AI-powered cyber insurance intelligence platform that turns raw data into
+  explainable, defensible financial decisions for the cyber insurance lifecycle. Founded in 2016
+  and operating from Tel Aviv and New York, its platform combines the 4SEEN AI risk-profiling
+  algorithm with Vivaldi cyber insurance orchestration to deliver real-time cyber risk analytics,
+  cyber risk quantification, third-party risk management, and cyber catastrophe (accumulation)
+  modeling. Users enter a company name, URL, industry, and country and receive a one-page cyber
+  risk report in under a minute, with coverage spanning the vast majority of businesses globally in
+  multiple languages. Cyberwrite delivers its data to insurers, reinsurers, brokers, MGAs,
+  corporates, ILS investors, and private equity firms in real time through the Cyberwrite API for
+  underwriting automation and aggregated portfolio risk management. Partners include Markel, Howden,
+  HSB, Mastercard Start Path, and Navacord. Added to the API Evangelist network via the speedinvest
+  portfolio and enriched here from Cyberwrite's public web surface.
 url: https://raw.githubusercontent.com/api-evangelist/cyberwrite/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://media.base44.com/images/public/69e67661393eedbc9cf9b581/ae1877b28_Screenshot2026-04-27at154951.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Cyber Insurance
+- Cyber Risk
+- InsurTech
+- Risk Quantification
+- Catastrophe Modeling
+- Underwriting
+- Third Party Risk
+- Security Ratings
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,30 @@ maintainers:
 common:
 - type: Website
   url: https://cyberwrite.com
+- type: Documentation
+  url: https://cyberwrite.com/platform
+- type: Blog
+  url: https://cyberwrite.com/blog
+- type: Support
+  url: https://cyberwrite.com/contact
+- type: SignUp
+  url: https://cyberwrite.com/trycyberwrite
+- type: TermsOfService
+  url: https://cyberwrite.com/legal/terms
+- type: PrivacyPolicy
+  url: https://cyberwrite.com/privacy-policy
+- type: LLMsTxt
+  url: llms/cyberwrite-llms.txt
+- type: WellKnown
+  url: well-known/cyberwrite-well-known.yml
+- type: DomainSecurity
+  url: security/cyberwrite-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/cyberwrite-vulnerability-disclosure.yml
+- type: Security
+  url: https://cyberwrite.com/security/responsible-disclosure
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

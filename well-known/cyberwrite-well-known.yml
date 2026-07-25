@@ -1,0 +1,26 @@
+generated: '2026-07-18'
+method: searched
+source: live probe of https://cyberwrite.com/.well-known/*
+host: https://cyberwrite.com
+note: >-
+  cyberwrite.com is hosted on the base44 (Wix) AI app platform. The
+  openid-configuration / oauth-authorization-server documents served at this
+  host are the base44 PLATFORM OAuth server (issuer https://app.base44.com),
+  auto-served by the hosting platform, not Cyberwrite's own partner-gated
+  product API. Recorded here verbatim as the discovery surface present on the
+  host; attribute the OAuth issuer to base44, not to Cyberwrite.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 200
+  file: cyberwrite-openid-configuration.json
+  issuer: https://app.base44.com
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  file: cyberwrite-oauth-authorization-server.json
+  issuer: https://app.base44.com
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
