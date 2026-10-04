@@ -54,7 +54,7 @@ tags:
 - Risk Quantification
 - Catastrophe Modeling
 - Underwriting
-- Third-Party Risk
+- Third-Party Risk Management
 - Security Ratings
 tags_raw:
 - Company
@@ -66,6 +66,7 @@ tags_raw:
 - Underwriting
 - Third Party Risk
 - Security Ratings
+- Third-Party Risk
 apis: []
 maintainers:
 - FN: Kin Lane
